@@ -1,0 +1,41 @@
+{
+    "name": "bissolli/nova-live-inline-fields",
+    "description": "",
+    "keywords": [
+        "laravel",
+        "nova",
+        "live fields",
+        "inline fields",
+        "input inline",
+        "select inline"
+    ],
+    "homepage": "https://github.com/bissolli/nova-live-inline-fields",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo Bissolli",
+            "email": "gustavo.bissolli@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bissolli\\NovaLiveInlineFields\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bissolli\\NovaLiveInlineFields\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
